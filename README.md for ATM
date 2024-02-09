@@ -1,0 +1,28 @@
+# ATM Simulation
+Simple ATM Implementation
+This Python script represents a basic ATM (Automated Teller Machine) implementation. 
+The Atm class allows users to create a PIN, deposit money, withdraw money, and check their account balance.
+This project implements a simple ATM simulation in Python.
+## Usage
+The `Atm` class allows users to create a PIN, deposit money, withdraw money, and check the balance.
+``python
+# Example usage:
+sbi = Atm()
+sbi.deposit()
+sbi.withdraw()
+sbi.check_balance()
+# Features
+## PIN Creation: Users can set a PIN for their account.
+## Deposit: Add funds to the account.
+## Withdraw: Withdraw funds, provided there are sufficient funds.
+## Check Balance: View the current account balance.
+# Example
+## Instantiate an ATM object
+sbi = Atm()
+# Deposit money
+sbi.deposit()
+# Withdraw money
+sbi.withdraw()
+# Check balance
+sbi.check_balance()
+# Feel free to use and modify the code as needed for your own projects.
